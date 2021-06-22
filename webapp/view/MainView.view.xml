@@ -9,7 +9,11 @@
 			<pages>
 				<Page id="page" title="{i18n>title}">
 					<content>
-                    <Text text="me cago en todo lo que se mueve, tonto el que lo lea"></Text>
+                   <Panel headerText="Selection screen">
+                   <Label id="labelshipname"labelFor="shipname" text="Ship name" class="SapUISmallmargin"/>
+                   <Input id="shipname" width="200px" class="SapUISmallmarginEnd"/>
+                   <Label id="labelcountry" text="Country" class="SapUISmallmargin"/>
+                   </Panel>
                     </content>
 				</Page>
 			</pages>
