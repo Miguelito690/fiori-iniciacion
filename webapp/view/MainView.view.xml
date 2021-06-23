@@ -9,7 +9,7 @@
 			<pages>
 				<Page id="page" title="{i18n>title}">
 					<content>
-                   <Panel headerText="Selection screen">
+                   <Panel headerText="{i18n>Selection screen}Selection Screen">
                    <Label id="labelshipname"labelFor="shipname" text="Ship name" class="SapUISmallmargin"/>
                    <Input id="shipname" width="200px" class="SapUISmallmarginEnd"/>
                    <Label id="labelcountry" text="Country" class="SapUISmallmargin"/>
